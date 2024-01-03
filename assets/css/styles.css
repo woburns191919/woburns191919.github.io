@@ -1,0 +1,9 @@
+.hidden-links {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.highlight:hover .hidden-links {
+  display: block;
+}

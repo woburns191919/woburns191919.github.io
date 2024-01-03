@@ -37,3 +37,14 @@
 .highlight .button:hover {
   background-color: #666;
 }
+
+#language-skills {
+  text-align: center;
+  padding: 50px 0;
+}
+#language-skills i {
+
+  font-size: 4em;
+  margin-bottom: 10px;
+  display: block;
+}

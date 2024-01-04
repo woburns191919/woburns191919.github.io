@@ -10,7 +10,7 @@
 }
 
 .highlight:hover .image img {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .highlight .hidden-links {
@@ -38,13 +38,48 @@
   background-color: #666;
 }
 
-#language-skills {
+#technologies {
   text-align: center;
   padding: 50px 0;
 }
-#language-skills i {
+#technologies i {
 
   font-size: 4em;
   margin-bottom: 10px;
+
+}
+
+
+.view-button {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.headshot-container {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.headshot-image {
+  width: 100%;
+  height: auto;
   display: block;
 }
